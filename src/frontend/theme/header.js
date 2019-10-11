@@ -3,7 +3,7 @@ import astronomia from './../../assets/astronomia.jpg'
 import './style.css'
 const Header =() => {
     return(
-        <Header>
+        <header>
 		    
 			<div>
                <img src ={astronomia}  alt ="" with ="100px"/>
@@ -17,7 +17,7 @@ const Header =() => {
 			</ul>
 		    </nav>
 
-	    </Header>
+	    </header>
     )
 }
 

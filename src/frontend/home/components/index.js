@@ -1,5 +1,6 @@
 import React from 'react'
 import Body from './../../theme/body'
+
 import './../../theme/style.css'
 import a1 from './../../../assets/a1.jpg'
 import astrofísica from './../../../assets/Astrofísica.jpg'
@@ -18,7 +19,7 @@ const Index =(props) => {
                             galaxias y los cúmulos de galaxias; por lo que estudia sus movimientos y los fenómenos<br/>  
                             ligados a ellos
                             <img 
-                            src={a1} width = '100px' alt=""
+                            src={a1} className="gg" width = '200px' alt=""
                             />
                             </p>
                         </article>
@@ -31,7 +32,7 @@ const Index =(props) => {
                             explicar las propiedades y fenómenos de los cuerpos estelares a través de sus leyes, fórmulas <br/>
                             y magnitudes.  
                             <img 
-                            src={astrofísica} width ='100px' alt=""
+                            src={astrofísica} className="gg" width ='200px' alt=""
                             />
                             </p>
                         </article>
